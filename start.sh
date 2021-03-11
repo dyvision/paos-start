@@ -1,6 +1,8 @@
 sudo dhclient &
 sudo apt install expect -y
 
+python3 hide-mouse.py
+
 git clone https://github.com/atar-axis/xpadneo.git
 cd xpadneo
 sudo ./install.sh
