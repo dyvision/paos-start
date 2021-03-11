@@ -5,11 +5,6 @@ cd /home/parsec/paos-start/
 git reset --hard HEAD;git pull;
 sudo chmod +x *
 
-#legacy update
-cd /home/parsec/RetroPie/roms/parsec
-git reset --hard HEAD;git pull;
-sudo chmod +x *
-
 #iot update
 cd /var/www/html/paos-iot 
 git reset --hard HEAD;git pull;
