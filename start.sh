@@ -1,6 +1,10 @@
 sudo dhclient &
 sudo apt install expect -y
 
+git clone https://github.com/atar-axis/xpadneo.git
+cd xpadneo
+sudo ./install.sh
+
 
 #start update
 cd /home/parsec/paos-start/
