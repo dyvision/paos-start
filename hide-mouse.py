@@ -3,4 +3,4 @@ from pynput.mouse import Button, Controller
 mouse = Controller()
 
 # Set pointer position
-mouse.position = (0, 0)
+mouse.position = (2000, 2000)
