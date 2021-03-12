@@ -13,12 +13,6 @@ git clone https://github.com/atar-axis/xpadneo.git
 cd xpadneo
 sudo ./install.sh
 
-
-#start update
-cd /home/parsec/paos-start/
-git reset --hard HEAD;git pull;
-sudo chmod +x *
-
 #iot update
 cd /var/www/html/paos-iot 
 git reset --hard HEAD;git pull;
