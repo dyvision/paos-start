@@ -17,7 +17,7 @@ sudo ./install.sh
 #start update
 cd /home/parsec/paos-start/
 git reset --hard HEAD;git pull;
-sudo chmod +x -R *
+sudo chmod +x *
 
 #iot update
 cd /var/www/html/paos-iot 
