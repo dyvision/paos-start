@@ -1,4 +1,5 @@
 sudo dhclient &
+sudo service bluetooth restart
 sudo apt install expect -y
 
 pip3 install pynput
