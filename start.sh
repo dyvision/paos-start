@@ -3,6 +3,7 @@ sudo service bluetooth restart
 sudo apt install expect -y
 
 pip3 install pynput
+pip3 install pulsectl
 export DISPLAY=:0;python3 hide-mouse.py
 
 xset s off
